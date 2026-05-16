@@ -1,0 +1,5 @@
+set1 = set(input().split())
+set2 = set(input().split())
+target = input().strip()
+common = set1.intersection(set2)
+print(target in common)
